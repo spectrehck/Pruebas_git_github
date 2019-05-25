@@ -1,5 +1,8 @@
 es el primer cambios, asi que este es git 
 muy interensate parcero
 como siempre lo mejor.
+sigamos con las pruebas ahora para ver la pendejada del vim que no lo entiendo.
+
+
 
 
