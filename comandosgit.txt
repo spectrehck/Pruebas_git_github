@@ -6,6 +6,8 @@ git add archivo.txt agrega los archivos al area de staging o de espera
 git add . agrega todos los archivos que estan en el area de staging . significa toda la carpeta
 git commit agrega los archivos a la rama principal
 git commit -m "mensaje random" agrega los archivos a la rama principal con un mensaje
+git commit -am "mensaje random" agrega los archivos al stagign y los comitea al mismo tiempo (solo funciona con archivos previamente agregados con dd)
+
 git log archivo.txt te permite ver el historial de cambios de un archivo en particular	
 git show archivo.txt te permite ver una comparacion del ultimo commit con el penultimo commit
 git diff commitnumber1 commitnumber2 comparamos las versiones , te muestra los cambios
@@ -14,6 +16,7 @@ git reset commitnumber --soft regresa el archivo al estado del commit que elegim
 git checkout commitnumber te regresa a una version anterior
 git checkout master
 git log --stat te permite ver los cambios con bits
+
 
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
