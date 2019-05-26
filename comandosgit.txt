@@ -21,6 +21,10 @@ git checkout master te regresa a la version master
 git checkout nombre_rama te coloca en la rama que elijas
 git log --stat te permite ver los cambios con bits
 
+git remote add origin direccion_url agrega una carpeta remota ya sea github u otro controlador de versiones
+git remote te muestra el origin
+git remote -v te muestra la direccion url para hcer el fetch y push
+git push origin master pusheas los cambios al origin la rama master
 
 
 git log --stat te permite ver los cambios con bits
