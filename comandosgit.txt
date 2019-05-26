@@ -16,6 +16,7 @@ git reset commitnumber --soft regresa el archivo al estado del commit que elegim
 git checkout commitnumber te regresa a una version anterior
 git checkout master
 git log --stat te permite ver los cambios con bits
+hola perros version branch auaaa
 
 
 git log --oneline - Te muestra el id commit y el título del commit.
