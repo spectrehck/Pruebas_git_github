@@ -27,7 +27,7 @@ git remote add origin direccion_url agrega una carpeta remota ya sea github u ot
 git remote te muestra el origin
 git remote -v te muestra la direccion url para hcer el fetch y push
 git push origin master pusheas los cambios al origin la rama master
-git pull origin master --alow-unrelated-histories este es el primer commit que se hace al github para que te permita traer el archivo readme o los cambios que ya existan a tu computadora; es un tipo de merge.
+git pull origin master --allow-unrelated-histories este es el primer commit que se hace al github para que te permita traer el archivo readme o los cambios que ya existan a tu computadora; es un tipo de merge.
 hola 
 
 
